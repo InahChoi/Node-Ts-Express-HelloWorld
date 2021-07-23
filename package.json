@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.4.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "name": "ayak-backend-helloworld",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "tsc",
+    "start": "nodemon --exec ts-node dist/app.js" 
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
